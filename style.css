@@ -18,20 +18,26 @@ p {
     color: #cbd5e1;
 }
 
-/* כפתור בסיס */
+/* כפתורים */
 .btn {
     display: block;
-    width: 250px;
+    width: 260px;
     margin: 15px auto;
     padding: 15px;
     border-radius: 12px;
     text-decoration: none;
     color: white;
     font-size: 20px;
-    transition: 0.3s;
+    transition: 0.25s;
 }
 
-/* KICK */
+/* אפקט מעבר */
+.btn:hover {
+    transform: scale(1.07);
+    opacity: 0.9;
+}
+
+/* Kick */
 .kick {
     background: #53fc18;
     color: black;
@@ -48,21 +54,18 @@ p {
     margin-left: 10px;
 }
 
-/* DISCORD */
+/* Discord */
 .discord {
     background: #5865F2;
 }
 
-/* YOUTUBE */
+/* YouTube */
 .youtube {
     background: #FF0000;
 }
 
-/* TIKTOK */
+/* TikTok */
 .tiktok {
-    background: #222;
-}
-
-.btn:hover {
-    transform: scale(1.05);
+    background: #1f1f1f;
+    border: 1px solid #444;
 }
