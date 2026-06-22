@@ -31,10 +31,8 @@ p {
     transition: 0.25s;
 }
 
-/* אפקט מעבר */
 .btn:hover {
     transform: scale(1.07);
-    opacity: 0.9;
 }
 
 /* Kick */
